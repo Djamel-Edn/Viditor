@@ -51,7 +51,7 @@ const FAQ = () => {
 
   return (
     <div className='px-4 lg:px-16 pt-24' id='faq'>
-      <h2 className='h2 max-w-96 md:max-w-none md:pl-8 mx-auto' >You've got questions,we've got answers</h2>
+      <h2 className='h2 max-w-96 md:max-w-none md:pl-8 mx-auto' >You&apos;ve got questions,we&apos;ve got answers</h2>
       <p className='p mt-4 text-lg  md:pl-8'>find your answers below </p>
       <div className='grid md:grid-cols-2 mt-8 gap-y-4 gap-x-16'>
         {faqs.map((faq, index) => (

@@ -9,7 +9,7 @@ const ReviewCard = ({name,imgSrc,company,review}:{name:string,imgSrc:string,comp
             <Icon imgSrc={imgSrc}/>
             <div>
                 <p className='mb-1 text-sm text-cyan-500 font-semibold'>{name}</p>
-                <p className='p-xs'></p>
+                <p className='p-xs'>{company}</p>
             </div>
         </div>
     </div>

@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import { IconType } from 'react-icons'
-import { GoFlame } from 'react-icons/go'
 
 interface ButtonProps{
     text: string

@@ -10,7 +10,7 @@ const Hero = () => {
         <div className='flex flex-col gap-2 z-10 md:max-w-80 lg:max-w-96'>
             <p className='text-slogan'>Effortless Video creation</p>
             <h1 className='h1'>Incredibly Simple & Fast</h1>
-            <p className='p mb-4'>Experience a user-friendly, fast, and efficient video editing tool that's also surprisingly powerful, enabling you to create stunning quickly, without compromising on quality.</p>
+            <p className='p mb-4'>Experience a user-friendly, fast, and efficient video editing tool that&apos;s also surprisingly powerful, enabling you to create stunning quickly, without compromising on quality.</p>
             <Button text='Try it now' link='#download' icon={GoFlame} />
         </div>
         <div className='w-80 lg:w-96 z-10'>
