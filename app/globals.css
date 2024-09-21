@@ -3,25 +3,26 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  color-scheme: dark;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.gradient-01 {
+  background-image: radial-gradient(circle at 50% 50%, rgb(27, 45, 140), rgb(2, 6, 23));
+  filter: blur(125px);
+}
+
+.gradient-02{
+  background-image: radial-gradient(circle at 50% 50%, rgb(44, 62, 149), rgb(2, 6, 23));
+  filter: blur(125px);
+}
+
+.gradient-03{
+  background-image: linear-gradient(rgb(2, 6, 23), rgb(44, 62, 149), rgb(2, 6, 23));
+  filter: blur(125px);
 }
