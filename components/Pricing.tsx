@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react'
 import PricingSvg from './pricingSvg'
-import Plan from './plan'
+import Plan from './Plan'
 import { FaPeopleGroup, FaPerson } from 'react-icons/fa6'
 import { FaRegCircle, FaRegSquare } from 'react-icons/fa'
 import { PiHexagonBold } from 'react-icons/pi'
