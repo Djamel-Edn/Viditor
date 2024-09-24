@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <div className='relative flex w-full flex-col md:flex-row items-center justify-between p-16 pt-20 md:pt-40 gap-20'>
+    <div className='relative flex w-full flex-col md:flex-row items-center justify-between p-16 pt-20 md:pt-28 gap-20'>
         <div className='absolute gradient-02 left-1/2 w-1/2 inset-0'/>
         <div className='flex flex-col gap-2 z-10 md:max-w-80 lg:max-w-96'>
             <p className='text-slogan'>Effortless Video creation</p>
